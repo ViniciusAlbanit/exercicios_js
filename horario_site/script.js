@@ -1,5 +1,5 @@
 var tempo = new Date()
-//var hora = tempo.getHours()
+var hora = tempo.getHours()
 var hora = 19
  function carregar(){
     var msg = document.querySelector('div#msg')
@@ -15,4 +15,4 @@ var hora = 19
         img.src = 'noite.jpg'
         fundo.style.background = 'black'
     }
- }
+}
