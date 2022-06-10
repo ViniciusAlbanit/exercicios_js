@@ -1,6 +1,5 @@
 var tempo = new Date()
 var hora = tempo.getHours()
-var hora = 19
  function carregar(){
     var msg = document.querySelector('div#msg')
     var img = document.querySelector('img#imagem')
