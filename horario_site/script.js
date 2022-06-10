@@ -1,6 +1,6 @@
-var tempo = new Date()
-var hora = tempo.getHours()
- function carregar(){
+var tempo = new Date() //Dando um valor ao tempo de data/tempo
+var hora = tempo.getHours() //Pega o horário do seu computador
+ function carregar(){ //Função quando carrega a página a função ativa
     var msg = document.querySelector('div#msg')
     var img = document.querySelector('img#imagem')
     var fundo = document.querySelector('body#fundo')
